@@ -1,0 +1,272 @@
+/* Reset */
+body , div , span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, textarea, input,
+
+select {margin: 0; padding: 0; border: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: 'Vollkorn', serif; text-align: justify; vertical-align: baseline;}
+
+/* General */
+html {overflow-y: scroll;},
+table {border-collapse: collapse; border-spacing: 0;}
+caption, th, td {text-align: left; font-weight: normal;}
+table, td, th {vertical-align: middle;}
+blockquote:before, blockquote:after, q:before, q:after {content: "";}
+blockquote, q {quotes: "" "";}
+a img {border: none;}
+:focus {outline: 0;}
+
+html {
+	height: 100%;
+	padding-bottom: 0; /* value other than 0 forces scrollbars */
+	font-family: 'Vollkorn', serif;
+}
+
+body {
+	font-family: 'Vollkorn', serif;
+	font-size: 18px;
+	background: #FFF;
+	color: #334;
+	line-height: 1.5;
+}
+
+/* Headings */
+h1,h2,h4, {
+	font-family: 'Ubuntu', serif;
+	color: #444;
+	font-weight: normal;
+	line-height: 1;
+	margin-bottom: 0.3em;
+}
+
+h3,h6 {
+	font-family: 'Goudy Bookletter 1911', serif;
+	color: #444;
+	font-weight: normal;
+	line-height: 1;
+	margin-bottom: 0.3em;
+	margin-left: 2em;
+}
+
+h1 {font-size: 2.6em; padding-left: 500px; }
+h2 {font-size: 2em;}
+h3 {font-size: 2em; padding-left: 10px;}
+h4 {font-size: 1.25em;}
+h5 {font-size: 1.1em;}
+h6 {font-size: 1.25em;}
+
+h5 {font-family: 'Ubuntu', serif;
+	font-size: 1em;
+	color: #002;
+}
+p {text-indent: 2em}
+p.noindent {text-indent: 0em}
+
+/* Links */
+a:link {color:#094e78; text-decoration:none;}
+a:visited {color:#094e78; text-decoration:none;}
+a:hover {color:#094e78; border-bottom: 1px; text-decoration:none;}
+#abstract:link { color: #999; }
+#abstract:hover { color: #002; }
+
+/* Lists */
+li ul, li ol {margin-left: 1.5em;}
+ul, ol {margin: 0 0 1.5em 1.5em;}
+ul {list-style-type: disc;}
+ol {list-style-type: decimal;}
+ul.no {list-style-type:none;}
+ol ol {list-style-type:lower-roman;}
+dl {margin: 0 0 1.5em 0;}
+dl dt {font-weight: bold;}
+dd {margin-left: 1.5em;}
+
+/* Special lists */
+ul.plain-list li, ul.nice-list li, ul.tabbed li {list-style: none;}
+ul.tabbed {
+	display: inline;
+	margin: 0;
+}
+ul.tabbed li {float: left;}
+ul.tabbed li a {float: left; font-family: 'Ubuntu', serif;}
+li.current-tab a {
+	background: #FFF;
+	font-weight: bold;
+}
+.post-body li.year {
+	float: left;
+	position: relative;
+	margin-bottom: 0;
+	color: #333;
+	margin-left: 0;
+	background: none;
+	width: 2.75em;
+	text-align: left;
+	font-size: medium;
+	vertical-align: middle;
+}
+.post-body li.range {
+	width: 5.2em;
+	left: 0;
+}
+.post-body li.noyear {
+	background: none;
+}
+
+/* Tables */
+table { width: auto;
+	border-collapse: collapse;
+}
+/* table tr td:first-child{ width:1%; white-space:nowrap;} */
+table tr td:first-child{ padding-left: 1.5em;}
+table tr td { padding-right: 25px;}
+tr.spaceUnder > td {
+	padding-bottom: 10px;
+}
+
+/* Special table */
+#contents table {
+	font-family: Ubuntu, sans-serif;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding: 0px 0px 10px 0px;
+	background: white;
+	width: 700px;
+}
+
+#contents table th {
+	font-family: Ubuntu, sans-serif;
+	padding:5px;
+	font-size:12px;
+	text-align:left;
+	border:1px solid #ddd;
+	background:#cfcfcf;
+}
+
+#contents table td {
+	font-family: Ubuntu, sans-serif;
+	padding:5px;
+	font-size:12px;
+	text-align:left;
+	border:1px solid #ddd;
+}
+
+/* General */
+.center,.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* Images */
+.img-circle {
+	border-radius: 50%;
+	float:left;
+	top: 35%;
+padding: 20px 20px 20px 20px;}
+
+/* Separators */
+.content-separator, .archive-separator {
+	background: #D5D5D5;
+	clear: both;
+	color: #FFE;
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	height: 1px;
+}
+.content-separator {margin: 20px 0;}
+.archive-separator {margin: 10px 0;}
+
+.small-separator {
+	background: #D5D5D5;
+	clear: both;
+	color: #FFE;
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	height: 1px;
+	margin-left: 250px;
+	margin-right: 250px;
+	margin-bottom: 25px;
+}
+
+/* General layout */
+.center-wrapper {
+	margin: 0 auto;
+	width: 775px;
+}
+
+/* Toolbar */
+#toolbar {
+	padding: 12px 0 8px;
+	font-size: 1.1em;
+	color: #999;
+}
+#toolbar img {vertical-align: middle;}
+
+/* Header */
+#header {margin-bottom: 24px;}
+
+/* Navigation */
+#navigation {margin-bottom: 12px;}
+#navigation a {
+	color: #888;
+	font-size: 1em;
+	margin-right: 20px;
+}
+
+/* For abstract boxes on links page */
+div.abs {
+	background-color:#D6D6D6;
+	border:0px;
+	padding:0.5em;
+	font-size:15px;
+	line-height:18px;
+	text-align:justify;
+	float: center;
+}
+
+/* lists with years */
+.cv {
+	position: relative;
+}
+.cv ul {
+	padding-left: 0;
+	margin-left: 0;
+	position: relative;
+}
+.cv ul li {
+	margin-left: 5em;
+	margin-bottom: 0em;
+	margin-top: 0;
+	padding-left: 0;
+	list-style: disc;
+}
+.cv ul li.year {
+	float: left;
+	position: relative;
+	margin-bottom: 0;
+	color: #333;
+	margin-left: 0;
+	margin-right: 0;
+	background: none;
+	text-align: right;
+	font-size: large;
+	vertical-align: middle;
+	list-style: none;
+}
+
+span.smallcaps {font-variant:small-caps;}
+
+/* From the Intro Ling 201 class
+#contents201 table th {
+	padding:5px;
+	text-align:left;
+	border:1px solid #ddd;
+	background:#cfcfcf;
+}
+
+#contents201 table td {
+	padding:5px;
+	text-align:left;
+	border:1px solid #ddd;
+}*/
