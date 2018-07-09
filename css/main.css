@@ -29,7 +29,7 @@ body {
 
 /* Headings */
 h1,h2,h4, {
-	font-family: 'Ubuntu', serif;
+	font-family: 'Fira Sans', serif;
 	color: #444;
 	font-weight: normal;
 	line-height: 1;
@@ -52,7 +52,7 @@ h4 {font-size: 1.25em;}
 h5 {font-size: 1.1em;}
 h6 {font-size: 1.25em;}
 
-h5 {font-family: 'Ubuntu', serif;
+h5 {font-family: 'Fira Sans', serif;
 	font-size: 1em;
 	color: #002;
 }
@@ -84,7 +84,7 @@ ul.tabbed {
 	margin: 0;
 }
 ul.tabbed li {float: left;}
-ul.tabbed li a {float: left; font-family: 'Ubuntu', serif;}
+ul.tabbed li a {float: left; font-family: 'Fira Sans', serif;}
 li.current-tab a {
 	background: #FFF;
 	font-weight: bold;
@@ -122,7 +122,7 @@ tr.spaceUnder > td {
 
 /* Special table */
 #contents table {
-	font-family: Ubuntu, sans-serif;
+	font-family: 'Fira Sans', sans-serif;
 	margin-top: 0px;
 	margin-bottom: 10px;
 	margin-left: 50px;
@@ -133,7 +133,7 @@ tr.spaceUnder > td {
 }
 
 #contents table th {
-	font-family: Ubuntu, sans-serif;
+	font-family: 'Fira Sans', sans-serif;
 	padding:5px;
 	font-size:12px;
 	text-align:left;
@@ -142,7 +142,7 @@ tr.spaceUnder > td {
 }
 
 #contents table td {
-	font-family: Ubuntu, sans-serif;
+	font-family: 'Fira Sans', sans-serif;
 	padding:5px;
 	font-size:12px;
 	text-align:left;
