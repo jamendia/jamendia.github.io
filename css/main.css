@@ -1,6 +1,5 @@
 /* Reset */
 body , div , span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, textarea, input,
-
 select {margin: 0; padding: 0; border: 0; font-weight: inherit; font-style: inherit; font-size: 100%; font-family: 'Vollkorn', serif; text-align: justify; vertical-align: baseline;}
 
 /* General */
@@ -63,8 +62,8 @@ p.noindent {text-indent: 0em}
 a:link {color:#094e78; text-decoration:none;}
 a:visited {color:#094e78; text-decoration:none;}
 a:hover {color:#094e78; border-bottom: 1px; text-decoration:none;}
-#abstract:link { color: #999; }
-#abstract:hover { color: #002; }
+#abstract:link { color: #002; }
+#abstract:hover { color: #999; }
 
 /* Lists */
 li ul, li ol {margin-left: 1.5em;}
