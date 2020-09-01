@@ -62,8 +62,8 @@ p.noindent {text-indent: 0em}
 a:link {color:#094e78; text-decoration:none;}
 a:visited {color:#094e78; text-decoration:none;}
 a:hover {color:#094e78; border-bottom: 1px; text-decoration:none;}
-#abstract:link { color: #999; }
-#abstract:hover { color: #002; }
+#abstract:link { color: #002; }
+#abstract:hover { color: #999; }
 
 /* Lists */
 li ul, li ol {margin-left: 1.5em;}
