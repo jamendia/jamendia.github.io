@@ -29,7 +29,7 @@ html {
     --heading:       #242424;
 
     /* Accents */
-    --link:          #6f6b64; /* #4b5f77; */ 
+    --link:          #6f6b64; /* #4b5f77; */
     --link-hover:    #2f4d73;
 
     /* Borders */
@@ -55,7 +55,7 @@ html.dark {
     --heading:       #f2efe9;
 /* Accents */
     --link:          #a39d95;/* #8eb6e8; */
-/*    --link-hover:    #b9d0ef; 
+/*    --link-hover:    #b9d0ef;
 */
     --border:        #474a4f;
     --border-strong: #646971;
@@ -68,7 +68,7 @@ body {
     font-size: 1.72rem;
     background: var(--bg);
     color: var(--text);
-    transition: background-color 0.2s ease, color 0.2s ease;    
+    transition: background-color 0.2s ease, color 0.2s ease;
 	font-family: "Literata", serif;
     line-height: 1.5;
 	text-align:justify;
@@ -183,7 +183,7 @@ a:active {
     border-radius: .3rem;
     padding: 0 .4rem;
     color: var(--text);
-} 
+}
 
 pre code {
     display: inline-block;
@@ -200,7 +200,7 @@ blockquote {
     padding-left: 1.6rem;
     padding-right: 1.6rem;
     font-style: italic
-} 
+}
 
 article .header,
 .post-meta {
@@ -242,7 +242,7 @@ article .header,
     text-decoration: underline;
 }
 
-/* Wrap photo and icons in container 
+/* Wrap photo and icons in container
 and center icons */
 
 .photo {
