@@ -14,14 +14,18 @@
          <link rel="stylesheet" href="./css/main.css">
 
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,200..900;1,7..72,200..900&display=swap" rel="stylesheet">
-		<link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;0,7..72,600;0,7..72,700;1,7..72,400;1,7..72,500;1,7..72,600;1,7..72,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;500;600;700&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Fira+Mono" rel="stylesheet">
+
         <link href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" rel="stylesheet">
         <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"  rel="stylesheet">        
 
    		<link rel="icon" type="image/png" href="./img/lambda.png">
-
 
     </head>
     
@@ -96,8 +100,12 @@
         </footer>
  
         <!-- Icons -->
-        <script src="https://unpkg.com/lucide@latest" defer></script>
-        <script>lucide.createIcons();</script>
+        <script src="https://unpkg.com/lucide@1.37.0" defer></script>
+        <script>document.addEventListener("DOMContentLoaded", () => {
+            lucide.createIcons();
+            });
+        </script>
+
 
         <!-- Toggle between light and dark mode -->
         <script src="js/theme-toggle.js" defer></script>
