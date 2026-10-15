@@ -71,7 +71,7 @@ body {
     transition: background-color 0.2s ease, color 0.2s ease;
 	font-family: "Literata", serif;
     line-height: 1.5;
-	text-align:justify;
+	text-align: left;
 }
 
 header {
@@ -622,11 +622,11 @@ div.abs {
         margin-top: 0;
         margin-bottom: 0.5em;
     }
-    
+
     .pub-list li:first-child {
         margin-top: 1em;
     }
-    
+
     div.abs {
         margin-top: 1.1em;
         margin-bottom: -0.33em;
