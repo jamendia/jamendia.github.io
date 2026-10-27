@@ -1,8 +1,19 @@
 <!DOCTYPE html>
 
     <head>
+        <script>(() => {
+            const savedTheme = localStorage.getItem("theme");
+            const prefersDark = window.matchMedia(
+            "(prefers-color-scheme: dark)"
+            ).matches;
+
+            if (savedTheme === "dark" || (!savedTheme && prefersDark)) {
+            document.documentElement.classList.add("dark");
+            }
+        })();
+        </script>
+
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-            
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -11,7 +22,7 @@
         <meta name="description" content="Jon Ander Mendia">
 
         <!-- Styling -->
-         <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./css/main.css">
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -33,12 +44,12 @@
         <div style="display: none;"></div>
             <header>
                 <div class="logo">
-                    <a class="active" href="http://jamendia.github.io/">Jon Ander Mendia</a>
+                    <a class="active" href="https://jamendia.github.io/">Jon Ander Mendia</a>
                 </div>
                 <nav class="nav">
-                    <a href="http://jamendia.github.io/about.html">About</a>
-                    <a href="http://jamendia.github.io/research.html">Research</a>
-                    <a href="http://jamendia.github.io/teaching.html">Teaching</a>
+                    <a href="https://jamendia.github.io/about.html">About</a>
+                    <a href="https://jamendia.github.io/research.html">Research</a>
+                    <a href="https://jamendia.github.io/teaching.html">Teaching</a>
         			<a href="https://jamendia.github.io/files/cv.pdf">CV</a>
                     <button id="theme-toggle" aria-label="Toggle theme"><i id="theme-icon" data-lucide="moon"></i></button>
                 </nav>
@@ -105,7 +116,6 @@
             lucide.createIcons();
             });
         </script>
-
 
         <!-- Toggle between light and dark mode -->
         <script src="js/theme-toggle.js" defer></script>
