@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
     <head>
+        <!-- render the theme early to avoid lag --> 
         <script>(() => {
             const savedTheme = localStorage.getItem("theme");
             const prefersDark = window.matchMedia(
@@ -12,7 +13,12 @@
             }
         })();
         </script>
-
+        <!-- Icons -->
+        <script src="https://unpkg.com/lucide@1.37.0" defer></script>
+        <script>document.addEventListener("DOMContentLoaded", () => {
+            lucide.createIcons();
+            });
+        </script>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -110,13 +116,6 @@
             </div>
         </footer>
  
-        <!-- Icons -->
-        <script src="https://unpkg.com/lucide@1.37.0" defer></script>
-        <script>document.addEventListener("DOMContentLoaded", () => {
-            lucide.createIcons();
-            });
-        </script>
-
         <!-- Toggle between light and dark mode -->
         <script src="js/theme-toggle.js" defer></script>
 
