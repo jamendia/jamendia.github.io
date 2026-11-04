@@ -64,13 +64,29 @@
         <main>
             <p>
                 <span class="photo-block">
-                    <img src="./img/ja2023.jpg" class="photo" alt="me">
+                    <img src="./img/ja2023.webp" class="photo" alt="me" width="200" height="200" fetchpriority="high">
                     <br>
                     <span class="photo-icons">
-                        <a href="https://orcid.org/0000-0003-0153-164X"><i class="ai ai-orcid" style="font-size:30px"></i></a>
+                        <!--<a href="https://orcid.org/0000-0003-0153-164X"><i class="ai ai-orcid" style="font-size:30px"></i></a>
                         <a href="https://scholar.google.com/citations?user=n2vmSkQAAAAJ"><i class="ai ai-google-scholar" style="font-size:30px"></i></a>
-                        <!-- <a href="https://osf.io/ueknv/"><i class="ai ai-osf" style="font-size:30px"></i></a> -->    
-                        <a href="https://github.com/jamendia"><i class="fa-brands fa-github" style="font-size:1.7em"></i></a>  
+                        <a href="https://osf.io/ueknv/"><i class="ai ai-osf" style="font-size:30px"></i></a> -->    
+                    
+                        <a href="https://orcid.org/0000-0003-0153-164X" aria-label="orcid">
+                            <svg class="profile-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" aria-hidden="true" focusable="false">
+                                <path fill="currentColor" d="M358.7 252.2L312.8 252.2L312.8 406L360.3 406C427.9 406 443.4 354.7 443.4 329.1C443.4 287.5 416.9 252.2 358.7 252.2zM320 72C183 72 72 183 72 320C72 457 183 568 320 568C457 568 568 457 568 320C568 183 457 72 320 72zM239.2 432.8L209.4 432.8L209.4 225.3L239.2 225.3L239.2 432.8zM224.3 162.5C235.1 162.5 243.9 171.3 243.9 182.1C243.9 192.9 235.1 201.7 224.3 201.7C213.5 201.7 204.7 192.9 204.7 182.1C204.7 171.3 213.5 162.5 224.3 162.5zM364 433L283 433L283 225.3L363.6 225.3C440.3 225.3 474 280.1 474 329.2C474 382.5 432.3 433.1 364 433.1z"/>
+                            </svg>
+                        </a>
+                        <a href="https://scholar.google.com/citations?user=n2vmSkQAAAAJ" aria-label="google-scholar">
+                            <svg class="profile-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" aria-hidden="true" focusable="false">
+                                <path fill="currentColor" d="M454.9 362.5C454.9 362.5 454.9 362.6 455 362.6C464.2 382 469.4 403.7 469.4 426.6C469.3 509.1 402.5 576 320 576C237.5 576 170.7 509.1 170.7 426.7C170.7 403.8 175.9 382.1 185.1 362.7C186.8 359.1 188.7 355.5 190.7 352C195.1 344.4 200.1 337.3 205.7 330.7C233.1 298.1 274.2 277.4 320.1 277.4C353.7 277.4 384.7 288.5 409.7 307.3C418.8 314.2 427.1 322 434.5 330.8C440.1 337.4 445.1 344.6 449.5 352.1C451.5 355.5 453.3 359.1 455 362.6L454.9 362.5zM481.3 343.7C451.2 285.3 390.3 245.3 320 245.3C249.7 245.3 188.8 285.3 158.7 343.7L64 266.7L320 64L576 266.7L481.3 343.8L481.3 343.7z"/>
+                            </svg>
+                        </a>
+                        <a href="https://github.com/jamendia" aria-label="github">
+                            <svg class="profile-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" aria-hidden="true" focusable="false">
+                                <path fill="currentColor" d="M280.5 426.5C214.5 418.5 168 371 168 309.5C168 284.5 177 257.5 192 239.5C185.5 223 186.5 188 194 173.5C214 171 241 181.5 257 196C276 190 296 187 320.5 187C345 187 365 190 383 195.5C398.5 181.5 426 171 446 173.5C453 187 454 222 447.5 239C463.5 258 472 283.5 472 309.5C472 371 425.5 417.5 358.5 426C375.5 437 387 461 387 488.5L387 540.5C387 555.5 399.5 564 414.5 558C505 523.5 576 433 576 321C576 179.5 461 64 319.5 64C178 64 64 179.5 64 321C64 432 134.5 524 229.5 558.5C243 563.5 256 554.5 256 541L256 501C249 504 240 506 232 506C199 506 179.5 488 165.5 454.5C160 441 154 433 142.5 431.5C136.5 431 134.5 428.5 134.5 425.5C134.5 419.5 144.5 415 154.5 415C169 415 181.5 424 194.5 442.5C204.5 457 215 463.5 227.5 463.5C240 463.5 248 459 259.5 447.5C268 439 274.5 431.5 280.5 426.5z"/>
+                            </svg>
+                            <!--<i class="fa-brands fa-github" style="font-size:1.7em"></i> -->
+                        </a>
                     </span>
                 </span>
                 <span class="position" style="font-weight:bold;">Ikerbasque Research Fellow</span><br>
@@ -82,17 +98,21 @@
             </p>
             <table>
                 <tr>
-                    <td><i data-lucide="mail"></i></td>
+                    <td>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" class="lucide"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg>                        
+                    </td>
                     <td></td>
                     <td><a href="mailto:jonander.mendia@ehu.eus" class="email" style="font-weight: bold;" >jonander.mendia@ehu.eus</a></td>
                 </tr>
                 <tr>
-                    <td><i data-lucide="phone"></i></td>
+                    <td>
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" class="lucide"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"/></svg>
                     <td></td>
                     <td>(+34) 945 014 003</td>
                 </tr>
                 <tr>
-                    <td><i data-lucide="map-pin"></i></td>
+                    <td>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pinned preview-icon"><path d="M18 8c0 3.613-3.869 7.429-5.393 8.795a1 1 0 01-1.214 0C9.87 15.429 6 11.613 6 8a6 6 0 0112 0"/><path d="M4.474 15h-.197a1 1 0 00-.969.753l-1.097 4.35a1.5 1.5 0 001.444 1.898L20.344 22a1.5 1.5 0 001.446-1.897l-1.098-4.35a1 1 0 00-.969-.753h-.197"/><circle cx="12" cy="8" r="2"/></svg>
                     <td></td>
                     <td><a href="https://www.ehu.eus/en/web/micaelaportillaikergunea/ikergunea">Micaela Portilla Research Center</a></td>
                 </tr>

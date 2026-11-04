@@ -261,8 +261,16 @@ and center icons */
 .photo-icons {
     display: flex;
     justify-content: center;
-    gap: .6rem;
+    gap: 1.6rem;
     margin-top: .6rem;
+}
+
+.profile-svg {
+  display: inline-block;
+  width: 2em;
+  height: 2em;
+  fill: currentColor;
+  vertical-align: middle;
 }
 
 .post-list {
@@ -274,12 +282,6 @@ and center icons */
 .post-list li {
     margin-bottom: 3rem
 }
-
-
-/* .subscribe {
-    text-align: right;
-    margin-bottom: 3rem
-} */
 
 /* Publication list with years in the left margin */
 
@@ -356,20 +358,33 @@ div.abs {
 
 /*
 ===============================================================================
-  Icons
+  Icons in Index
 ===============================================================================
 */
 
-/* Lucide */
 .lucide {
+    width: 18px;
+    height: 18px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.75;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    vertical-align: -0.125em;
+    margin-right: 0.45em;
+}
+
+
+
+
+/* Academicons 
     width: 18px;
     height: 18px;
     stroke-width: 1.75;
     vertical-align: -0.125em;
     margin-right: 0.45em;
-}
 
-/* Academicons */
+*/
 .ai {
     font-size: 18px;
     vertical-align: -0.125em;
