@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
     <head>
+        <!-- render the theme early to avoid lag --> 
         <script>(() => {
             const savedTheme = localStorage.getItem("theme");
             const prefersDark = window.matchMedia(
@@ -31,9 +32,6 @@
         <link href="https://fonts.googleapis.com/css2?family=Fira+Sans" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,500;0,7..72,600;0,7..72,700;1,7..72,400;1,7..72,500;1,7..72,600;1,7..72,700&display=swap" rel="stylesheet">
 
-        <link href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css" rel="stylesheet">
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"  rel="stylesheet">             
-
    		<link rel="icon" type="image/png" href="./img/lambda.png">
 
     </head>
@@ -49,8 +47,11 @@
                 <a href="https://jamendia.github.io/research.html">Research</a>
                 <a href="https://jamendia.github.io/teaching.html">Teaching</a>
 				<a href="https://jamendia.github.io/files/cv.pdf">CV</a>
-                <button id="theme-toggle" aria-label="Toggle theme"><i id="theme-icon" data-lucide="moon"></i></button>
-			</nav>
+                <button id="theme-toggle" aria-label="toggle theme">
+                    <svg id="theme-icon" class="theme-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+                    </svg>
+                </button>
+            </nav>
 		</header>
 		
 		<main>
@@ -82,13 +83,6 @@
                 </svg>
             </div>
         </footer>
-
-        <!-- Icons -->
-        <script src="https://unpkg.com/lucide@1.37.0" defer></script>
-        <script>document.addEventListener("DOMContentLoaded", () => {
-            lucide.createIcons();
-            });
-        </script>
 
         <!-- Toggle between light and dark mode -->
         <script src="js/theme-toggle.js" defer></script>

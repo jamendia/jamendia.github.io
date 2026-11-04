@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 
 	<head>
+        <!-- render the theme early to avoid lag --> 
         <script>(() => {
             const savedTheme = localStorage.getItem("theme");
             const prefersDark = window.matchMedia(
@@ -46,7 +47,10 @@
 				<a href="https://jamendia.github.io/research.html">Research</a>
 				<a class="active" href="https://jamendia.github.io/teaching.html">Teaching</a>
 				<a href="https://jamendia.github.io/files/cv.pdf">CV</a>
-				<button id="theme-toggle" aria-label="Toggle theme"><i id="theme-icon" data-lucide="moon"></i></button>
+                <button id="theme-toggle" aria-label="toggle theme">
+                    <svg id="theme-icon" class="theme-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">
+                    </svg>
+                </button>
 			</nav>
 		</header>
 
